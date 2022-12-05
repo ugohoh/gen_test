@@ -17,13 +17,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      <body>
         <div class="boutonss">
-          <button> + 1 </button>
-          <button> - 1 </button>
+          <button class="mybtonplus"> + 1 </button>
+          <button class="mybtonmoins"> - 1 </button>
         </div>
-      </body>
+      </header>
     </div>
   );
 }
