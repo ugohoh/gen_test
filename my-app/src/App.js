@@ -1,19 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 
-const ButtonGroup = styled.div`
-  display: flex;
-`;
-const Button = styled.button`
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  padding: 10px 60px;
-  border-radius: 5px;
-  margin: 10px 0px;
-  cursor: pointer;
-`;
-
 function App() {
   return (
     <div className="App">
@@ -30,11 +17,13 @@ function App() {
         >
           Learn React
         </a>
-        <ButtonGroup>
-          <Button> Group 1 </Button>
-          <Button> Group 2 </Button>
-        </ButtonGroup>
       </header>
+      <body>
+        <div class="boutonss">
+          <button> + 1 </button>
+          <button> - 1 </button>
+        </div>
+      </body>
     </div>
   );
 }
