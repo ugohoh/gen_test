@@ -18,7 +18,6 @@ function App() {
         </p>
         <div class="boutonss">
           <button class="mybtonplus" onClick={addOne}> + 1 </button>
-          <button class="mybtonmoins" onClick={removeOne}> - 1 </button>
         </div>
       </header>
     </div>
